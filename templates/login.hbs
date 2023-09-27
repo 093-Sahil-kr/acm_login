@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="https://www.nitt.edu/home/%20/academics/departments/ca/associations/acm/">Home</a>
+            <a href="https://www.acm.org/about-acm/about-the-acm-organization">About</a>
+            <a href="https://www.acm.org/membership/acm-hq-contact">Services</a>
+            <a href="https://www.nitt.edu/home/%20/academics/departments/ca/associations/acm/">Contact</a>
+        </nav>
+    </header>
+    <div class="wrapper">
+    <h1>ACM login-page</h1>
+    <form action="/login" method="post">
+<div class="input-box">
+    <input type="text" name="name" placeholder="Username">
+    <i class='bx bxs-user'></i>
+</div>
+    
+<div class="input-box">
+    <input type="password" name="password" placeholder="Password">
+    <i class="bx bxs-lock-alt"></i>
+</div>
+
+    <input type="submit" class="submit">
+
+    </form>
+<div class="create-account">
+    <p>Don't have an account?
+    <a href="/signup">Create account</a></p>
+</div>
+<div class="social-icon">
+    <a href="https://www.linkedin.com/company/association-for-computing-machinery/"><i class='bx bxl-linkedin-square' ></i>
+    </a>
+    <a href="https://www.facebook.com/AssociationForComputingMachinery/"><i class='bx bxl-facebook-square' ></i></a>
+    <a href="https://www.instagram.com/indiaacm/"><i class='bx bxl-instagram' ></i></a>
+    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FIndiaacm"><i class='bx bxl-twitter' ></i></a>
+</div>
+</div>
+</body>
+</html>
